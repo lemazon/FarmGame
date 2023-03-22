@@ -1,0 +1,24 @@
+{
+  "Crop_Num": 2,
+  "name": [
+    {
+      "1": "Pumpkin",
+      "2": "Sunflower",
+      "3": "Rhubarb"
+    }
+  ],
+  "Crops":[
+    {
+      "max_type": 5,
+      "Chance": 30
+    },
+    {
+      "max_type": 4,
+      "Chance": 50
+    },
+    {
+      "max_type": 3,
+      "Chance": 65
+    }
+  ]
+}

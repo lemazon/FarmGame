@@ -1,0 +1,81 @@
+{
+  "Player_Inventory": [
+    {
+      "Pumpkin": 9
+    }
+  ],
+  "Crops": [
+    {
+      "Tile_id": 0.0,
+      "Tile_time": 0,
+      "is_watered": false,
+      "watered_time": 0,
+      "is_fertilised": false,
+      "fertilised_time": 0
+    },
+    {
+      "Tile_id": 0.0,
+      "Tile_time": 0,
+      "is_watered": false,
+      "watered_time": 0,
+      "is_fertilised": false,
+      "fertilised_time": 0
+    },
+    {
+      "Tile_id": 0.0,
+      "Tile_time": 0,
+      "is_watered": false,
+      "watered_time": 0,
+      "is_fertilised": false,
+      "fertilised_time": 0
+    },
+    {
+      "Tile_id": 0.0,
+      "Tile_time": 0,
+      "is_watered": false,
+      "watered_time": 0,
+      "is_fertilised": false,
+      "fertilised_time": 0
+    },
+    {
+      "Tile_id": 0.0,
+      "Tile_time": 0,
+      "is_watered": false,
+      "watered_time": 0,
+      "is_fertilised": false,
+      "fertilised_time": 0
+    },
+    {
+      "Tile_id": 0.0,
+      "Tile_time": 0,
+      "is_watered": false,
+      "watered_time": 0,
+      "is_fertilised": false,
+      "fertilised_time": 0
+    },
+    {
+      "Tile_id": 0.0,
+      "Tile_time": 0,
+      "is_watered": false,
+      "watered_time": 0,
+      "is_fertilised": false,
+      "fertilised_time": 0
+    },
+    {
+      "Tile_id": 0.0,
+      "Tile_time": 0,
+      "is_watered": false,
+      "watered_time": 0,
+      "is_fertilised": false,
+      "fertilised_time": 0
+    },
+    {
+      "Tile_id": 0.0,
+      "Tile_time": 0,
+      "is_watered": false,
+      "watered_time": 0,
+      "is_fertilised": false,
+      "fertilised_time": 0
+    }
+  ]
+}
