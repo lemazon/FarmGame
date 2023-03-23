@@ -1,13 +1,8 @@
 import pygame as py
-import json
 import tiles
 import data
-import sys
-import random as ra
-import pygame.image
+import commands
 import pygame_gui as py_gui
-from pygame.locals import *
-import os
 
 
 def update_crops():
@@ -56,7 +51,7 @@ def render():
             crop_data.textures[x[0]][x[1]],
             (tile_pos[i].goal_x, tile_pos[i].y)
         )
-    for i in range(1):
+    for i in range(2):
         if overlay_data.opacity[i] >= 0:
             screen.blit(overlay_data.image[i], (0, 0))
             overlay_data.opacity[i] -= 1
@@ -85,6 +80,9 @@ def main():
             tick = + 1
 
         for event in py.event.get():
+            if event.type == py_gui.UI_TEXT_ENTRY_FINISHED:
+
+                commands.commands(event.text, user_data, overlay_data)
 
             manager.process_events(event)
 
@@ -111,5 +109,8 @@ if __name__ == "__main__":
     manager = py_gui.UIManager((user_data.settings["Window_Size"], user_data.settings["Window_Size"]))
     overlay_data.opacity[0] = 100
     Animations.call_all()
+    text_input = py_gui.elements.UITextEntryLine(relative_rect=py.Rect((2 * user_data.scaler, 87 * user_data.scaler),
+                (96*user_data.scaler, 11*user_data.scaler)), manager=manager, object_id="#main_text_entery"
+    )
 
     main()

@@ -62,7 +62,7 @@ class ScreenOverlay:
 
 def initial_screen_overlay(user):
     overlay_image = []
-    for i in range(1):
+    for i in range(2):
         image = py.image.load("Textures/Overlay/" + str(i) + ".png")
         overlay_image.append(py.transform.scale(image, (user.settings["Window_Size"], user.settings["Window_Size"])))
 

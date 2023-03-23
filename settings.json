@@ -1,6 +1,6 @@
 {
     "Window_Size": 500,
-    "Tick_Rate": 500,
+    "Tick_Rate": 100,
     "Farm_Name": "Unnamed Farm",
     "Save_File_Name": "save_01.json",
     "Auto_Save": true

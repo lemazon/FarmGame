@@ -1,4 +1,10 @@
 {
+  "Effects": [
+    {
+      "watered_time": 0,
+      "fertilised_time": 0
+    }
+  ],
   "User_Inventory": [
     {
       "Pumpkin": 9
@@ -10,99 +16,63 @@
         0,
         0
       ],
-      "Tile_time": 0,
-      "is_watered": false,
-      "watered_time": 0,
-      "is_fertilised": false,
-      "fertilised_time": 0
+      "Tile_time": 0
     },
     {
       "Tile_id": [
         0,
         0
       ],
-      "Tile_time": 0,
-      "is_watered": false,
-      "watered_time": 0,
-      "is_fertilised": false,
-      "fertilised_time": 0
+      "Tile_time": 0
     },
     {
       "Tile_id": [
         0,
         0
       ],
-      "Tile_time": 0,
-      "is_watered": false,
-      "watered_time": 0,
-      "is_fertilised": false,
-      "fertilised_time": 0
+      "Tile_time": 0
     },
     {
       "Tile_id": [
         0,
         0
       ],
-      "Tile_time": 0,
-      "is_watered": false,
-      "watered_time": 0,
-      "is_fertilised": false,
-      "fertilised_time": 0
+      "Tile_time": 0
     },
     {
       "Tile_id": [
         0,
         0
       ],
-      "Tile_time": 0,
-      "is_watered": false,
-      "watered_time": 0,
-      "is_fertilised": false,
-      "fertilised_time": 0
+      "Tile_time": 0
     },
     {
       "Tile_id": [
         0,
         0
       ],
-      "Tile_time": 0,
-      "is_watered": false,
-      "watered_time": 0,
-      "is_fertilised": false,
-      "fertilised_time": 0
+      "Tile_time": 0
     },
     {
       "Tile_id": [
         0,
         0
       ],
-      "Tile_time": 0,
-      "is_watered": false,
-      "watered_time": 0,
-      "is_fertilised": false,
-      "fertilised_time": 0
+      "Tile_time": 0
     },
     {
       "Tile_id": [
         0,
         0
       ],
-      "Tile_time": 0,
-      "is_watered": false,
-      "watered_time": 0,
-      "is_fertilised": false,
-      "fertilised_time": 0
+      "Tile_time": 0
     },
     {
       "Tile_id": [
         0,
         0
       ],
-      "Tile_time": 0,
-      "is_watered": false,
-      "watered_time": 0,
-      "is_fertilised": false,
-      "fertilised_time": 0
+      "Tile_time": 0
     }
   ]
 }
