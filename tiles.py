@@ -1,3 +1,5 @@
+import pygame as py
+
 class UserTilePOS:
     def __init__(self, goal_x, goal_y, y, ):
         self.goal_x = goal_x
@@ -77,3 +79,7 @@ def initial_tile_POS(scaler):
         )
     ]
     return user_tile_POS
+
+
+
+
