@@ -1,25 +1,29 @@
 {
   "Overlay_Num": 1,
   "Crop_Num": 3,
-  "name": [
-    {
-      "1": "Pumpkin",
-      "2": "Sunflower",
-      "3": "Rhubarb"
-    }
+  "Name": [
+    "Pumpkin",
+    "Sunflower",
+    "Rhubarb"
   ],
   "Crops":[
     {
       "max_type": 5,
-      "Chance": 30
+      "Chance": 30,
+      "Price": 5,
+      "Harvest": 10
     },
     {
       "max_type": 4,
-      "Chance": 50
+      "Chance": 50,
+      "Price": 5,
+      "Harvest": 10
     },
     {
       "max_type": 3,
-      "Chance": 65
+      "Chance": 65,
+      "Price": 5,
+      "Harvest": 10
     }
   ]
 }

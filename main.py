@@ -82,7 +82,8 @@ def main():
         for event in py.event.get():
             if event.type == py_gui.UI_TEXT_ENTRY_FINISHED:
 
-                commands.commands(event.text, user_data, overlay_data)
+                print(commands.commands(event.text, user_data, overlay_data, crop_data))
+
 
             manager.process_events(event)
 
