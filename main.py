@@ -5,14 +5,17 @@ import commands
 import pygame_gui as py_gui
 
 
+# Will iterate through the crops list in user data, updating it older plant tiles.
 def update_crops():
     for i in range(9):
         if not (user_data.save_data["Crops"][i]["Tile_id"][0] == 0 or user_data.save_data["Crops"][i]["Tile_id"][1] == crop_data.info["Crops"][int(user_data.save_data["Crops"][i]["Tile_id"][0]) - 1]["max_type"] - 1):
             user_data.save_data["Crops"][i]["Tile_id"][1] += 1
 
 
+# A static class to organise the animations used in the project.
 class Animations:
     @staticmethod
+    # A method to call all of the tiles, staggering them and using the .call animation from tiles
     def call_all():
         frames = 0
         t = 0
@@ -28,6 +31,7 @@ class Animations:
                 loop = False
 
     @staticmethod
+    # A method to push all of the tiles, staggering them and using the .push animation from tiles
     def push_all():
         frames = 0
         t = 0
@@ -99,9 +103,12 @@ def main():
 
 # Checks if file is run as main file before initialising application and starting the main function.
 if __name__ == "__main__":
+    # Initializes pygame
     clock = py.time.Clock()
     clock.tick(30)
     py.init()
+
+    # Takes the user data and the tile library's/Data from around the file before dumping it to relevant classes.
     user_data = data.create_user_data()
     crop_data = data.initial_crop_data(user_data)
     overlay_data = data.initial_screen_overlay(user_data)
@@ -111,6 +118,8 @@ if __name__ == "__main__":
     manager = py_gui.UIManager((user_data.settings["Window_Size"], user_data.settings["Window_Size"]))
     overlay_data.opacity[0] = 100
     Animations.call_all()
+
+    # Created the element for text input, allowing the user to input commands.
     text_input = py_gui.elements.UITextEntryLine(relative_rect=py.Rect((2 * user_data.scaler, 87 * user_data.scaler),
                 (96*user_data.scaler, 11*user_data.scaler)), manager=manager, object_id="#main_text_entery"
     )
