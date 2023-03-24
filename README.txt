@@ -1,5 +1,16 @@
 Welcome to FarmGame
 
+plant crops, wait for them to grow, then harvest
+
+commands:
+    harvest [num] - harvests crop
+    money - shows money
+    inventory - shows inventory
+    plant [crop] [num] - plants crops
+    buy [crop] [num] - buys num of crops
+    save - saves the game to save file
+    water - water the crops
+
 requirements:
     Python 3.10 or higher
     models:

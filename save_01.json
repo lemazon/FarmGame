@@ -1,5 +1,5 @@
 {
-  "Money": 60,
+  "Money": 80,
   "Effects": [
     {
       "watered_time": 1,
@@ -7,15 +7,35 @@
     }
   ],
   "Inventory": [
-    {
-      "pumpkin": 9,
-      "sunflower": 10
-    }
+    49,
+    8,
+    10
   ],
   "Crops": [
     {
       "Tile_id": [
-        0,
+        1,
+        0
+      ],
+      "Tile_time": 0
+    },
+    {
+      "Tile_id": [
+        2,
+        0
+      ],
+      "Tile_time": 0
+    },
+    {
+      "Tile_id": [
+        2,
+        0
+      ],
+      "Tile_time": 0
+    },
+    {
+      "Tile_id": [
+        2,
         0
       ],
       "Tile_time": 0
@@ -36,7 +56,7 @@
     },
     {
       "Tile_id": [
-        0,
+        1,
         0
       ],
       "Tile_time": 0
@@ -44,35 +64,14 @@
     {
       "Tile_id": [
         3,
-        2
-      ],
-      "Tile_time": 0
-    },
-    {
-      "Tile_id": [
-        0,
         0
       ],
       "Tile_time": 0
     },
     {
       "Tile_id": [
-        0,
-        0
-      ],
-      "Tile_time": 0
-    },
-    {
-      "Tile_id": [
-        0,
-        0
-      ],
-      "Tile_time": 0
-    },
-    {
-      "Tile_id": [
-        0,
-        0
+        3,
+        1
       ],
       "Tile_time": 0
     }

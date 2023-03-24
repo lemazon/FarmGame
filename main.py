@@ -84,7 +84,6 @@ def main():
 
                 print(commands.commands(event.text, user_data, overlay_data, crop_data))
 
-
             manager.process_events(event)
 
             if event.type == py.QUIT:
