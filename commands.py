@@ -6,11 +6,13 @@ def commands(cm, user, overlay, crop):
     command = cm.split()
     match command[0]:
         case "hello":
-            print("hello", user.settings["Farm_Name"]+"s")
+            return print("hello", user.settings["Farm_Name"]+"s")
+
         case "save":
             overlay.opacity[0] = 100
             data.dump_save(user.save_data, user.settings)
             return "Game saved"
+
         case "water":
             overlay.opacity[1] = 100
             return "Plants watered"

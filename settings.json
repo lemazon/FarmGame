@@ -1,7 +1,7 @@
 {
-    "Window_Size": 500,
+    "Window_Size": 400,
     "Tick_Rate": 100,
-    "Farm_Name": "Unnamed Farm",
+    "Farm_Name": "Blake's Farm",
     "Save_File_Name": "save_01.json",
     "Auto_Save": true
 }
