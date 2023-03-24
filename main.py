@@ -6,7 +6,9 @@ import pygame_gui as py_gui
 
 
 def update_crops():
-    return
+    for i in range(9):
+        if not (user_data.save_data["Crops"][i]["Tile_id"][0] == 0 or user_data.save_data["Crops"][i]["Tile_id"][1] == crop_data.info["Crops"][int(user_data.save_data["Crops"][i]["Tile_id"][0]) - 1]["max_type"] - 1):
+            user_data.save_data["Crops"][i]["Tile_id"][1] += 1
 
 
 class Animations:
@@ -77,7 +79,7 @@ def main():
                 data.dump_save(user_data.save_data, user_data.settings)
                 overlay_data.opacity[0] = 100
         else:
-            tick = + 1
+            tick += 1
 
         for event in py.event.get():
             if event.type == py_gui.UI_TEXT_ENTRY_FINISHED:

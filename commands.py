@@ -40,7 +40,16 @@ def commands(cm, user, overlay, crop):
             return message
 
         case "buy":
-            return
+            try:
+                cost = int(crop.info["Crops"][int(crop.info["Name"].index(command[1]))]["Price"]) * int(command[2])
+                if cost <= user.save_data["Money"]:
+                    user.save_data["Money"] -= cost
+                    user.save_data["Inventory"][crop.info["Name"].index(command[1])] += int(command[2])
+                    return "Bought " + str(command[2]) + " " + str(command[1])
+                else:
+                    return "Insufficient funds"
+            except:
+                return "Invalid args"
 
         case "harvest":
             try:

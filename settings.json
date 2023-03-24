@@ -3,5 +3,5 @@
     "Tick_Rate": 100,
     "Farm_Name": "Blake's Farm",
     "Save_File_Name": "save_01.json",
-    "Auto_Save": true
+    "Auto_Save": false
 }
