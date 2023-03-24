@@ -2,9 +2,9 @@
   "Overlay_Num": 1,
   "Crop_Num": 3,
   "Name": [
-    "Pumpkin",
-    "Sunflower",
-    "Rhubarb"
+    "pumpkin",
+    "sunflower",
+    "rhubarb"
   ],
   "Crops":[
     {

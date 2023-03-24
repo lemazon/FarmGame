@@ -1,13 +1,15 @@
 {
+  "Money": 60,
   "Effects": [
     {
-      "watered_time": 0,
+      "watered_time": 1,
       "fertilised_time": 0
     }
   ],
-  "User_Inventory": [
+  "Inventory": [
     {
-      "Pumpkin": 9
+      "pumpkin": 9,
+      "sunflower": 10
     }
   ],
   "Crops": [
